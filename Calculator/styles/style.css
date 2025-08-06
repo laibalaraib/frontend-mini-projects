@@ -1,0 +1,110 @@
+/*Amazon add to cart - Project*/
+
+body {
+  font-family: Arial;
+}
+
+.subscribe-button {
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.is-subscribed {
+  background-color: rgb(240, 240, 240);
+  color: black;
+}
+
+.cost-input {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.calculate-button {
+  background-color: green;
+  color: white;
+  padding: 12px 15px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/*ROCK-PAPER-SCISSORS - PROJECT*/
+
+.rock-paper-scissors-body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0px 2px 5px #e1bd09;
+
+}
+
+.move-icon {
+  height: 50px;
+}
+
+.move-button {
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 60px;
+  width: 120px;
+  height: 120px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.move-button img:hover {
+  filter: grayscale(0);
+  margin: 20px;
+  transform: scale(0.8);
+  transition: 1s ease;
+  filter: drop-shadow(2px 2px 2px #e1bd09);
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.result-show {
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px,
+    0px 0px 20px,
+    0px 0px 40px,
+    0px 0px 80px;
+}
+
+.score {
+  margin-top: 60px;
+}
+
+.reset-score-button {
+  background-color: white;
+
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 5px solid #e1bd09;
+  box-shadow: 0px 0px 8px #e1bd09;
+}
+
+.reset-score-button:hover {
+  background-color: #e1bd09;
+  color: white;
+  border: 3px solid white;
+}
